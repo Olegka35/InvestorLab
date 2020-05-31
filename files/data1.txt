@@ -1,4 +1,4 @@
-30 5 10000
+30 5 100000
 1 nvqwqeheab 94.16 1
 1 tehdivqemv 112.14 4
 1 jkcolohsim 58.88 5

@@ -10,7 +10,7 @@ class Bond:
         self.count = count
 
         self.cost = int(Bond.value * price / 100 * count)
-        self.reward = Bond.value * count + (days + Bond.pay_day) - self.cost
+        self.reward = Bond.value * count + (days + Bond.pay_day) * count - self.cost
 
     def __repr__(self):
         return '{} {:.2f} {}; cost = {}; reward = {}'\
