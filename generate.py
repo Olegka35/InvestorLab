@@ -23,5 +23,5 @@ with open(name, 'w') as file:
     for i in range(days_num):
         slots_num = random.randint(1, max_lots_num)
         for k in range(slots_num):
-            file.write('{} {} {:.2f} {}\n'
+            file.write('{} {} {:.1f} {}\n'
                        .format(i + 1, random_word(10), random.uniform(50.0, 150.0), random.randint(1, 5)))

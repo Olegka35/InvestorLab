@@ -13,7 +13,7 @@ class Bond:
         self.reward = Bond.value * count + (days + Bond.pay_day) * count - self.cost
 
     def __repr__(self):
-        return '{} {:.2f} {}; cost = {}; reward = {}'\
+        return '{} {:.1f} {}; cost = {}; reward = {}'\
             .format(self.title, self.price, self.count, self.cost, self.reward)
 
 

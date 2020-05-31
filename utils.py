@@ -57,4 +57,4 @@ def write_output_file(output_path, investor):
         file.write('{}\n'.format(investor.reward))
 
         for bond in investor.bonds_list:
-            file.write('{} {} {:.2f} {}\n'.format(investor.days - bond.days, bond.title, bond.price, bond.count))
+            file.write('{} {} {:.1f} {}\n'.format(investor.days - bond.days, bond.title, bond.price, bond.count))
