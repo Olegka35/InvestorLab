@@ -1,4 +1,4 @@
-30 7 1000000
+30 7 100000
 1 wtqrhdwugf 108.72 3
 1 mcknmhvrse 99.87 1
 2 sithisaqzj 107.79 2
